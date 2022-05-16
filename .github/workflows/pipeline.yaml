@@ -46,7 +46,7 @@ jobs:
            context: .
            file: ./Dockerfile
            push: true
-           tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{env.DEPLOYMENT_NAME}}:${{ github.sha }}
+           tags: ${{ secrets.USERNAME }}/${{env.inventoryms}}:${{ github.sha }}
 
 
 

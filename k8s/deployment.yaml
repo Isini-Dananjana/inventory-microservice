@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name:  inventoryms-app
-          image: inventory/ms
+          image: isinid/inventoryms
           ports:
             - containerPort: 8070
           resources:
